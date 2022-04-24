@@ -1,0 +1,6 @@
+gdown
+torch==1.0.1
+sqlparse
+pymysql
+progressbar
+nltk
