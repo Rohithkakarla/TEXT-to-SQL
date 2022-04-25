@@ -8,7 +8,7 @@ python3 preprocess.py --dataset=sparc --remove_from
 #    the result (models, logs, prediction outputs) are saved in $LOGDIR
 
 GLOVE_PATH="/kaggle/working/glove.840B.300d.txt" # you need to change this
-LOGDIR="logs_sparc_editsql"
+LOGDIR="logs_sparc"
 
 CUDA_VISIBLE_DEVICES=0 python3 run.py --raw_train_filename="data/sparc_data_removefrom/train.pkl" \
           --raw_validation_filename="data/sparc_data_removefrom/dev.pkl" \
