@@ -36,7 +36,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run.py --raw_train_filename="data/sparc_data_remo
           --evaluate=1 \
           --evaluate_split="valid" \
           --use_predicted_queries=1 \
-          --save_file="$LOGDIR/save_31_sparc_editsql"
+          --save_file="$LOGDIR/rohith_trained_sparc"
 
 # 3. get evaluation result
 
