@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 python3 run.py --raw_train_filename="data/spider_data_rem
           --evaluate=1 \
           --evaluate_split="valid" \
           --use_predicted_queries=1 \
-          --save_file="$LOGDIR/save_12"
+          --save_file="$LOGDIR/spider"
 
 # 3. get evaluation result
 
